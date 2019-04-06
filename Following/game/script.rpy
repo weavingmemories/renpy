@@ -14,19 +14,15 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg room
+    scene bg
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
+    ## show eileen happy
 
     # These display lines of dialogue.
-
-    e "You've created a new Ren'Py game."
-
-    e "Once you add a story, pictures, and music, you can release it to the world!"
 
     "[Maybe things will be alright.]"
 
@@ -98,49 +94,58 @@ label start:
     e "I’ve seen it."
     e "…"
 
-b) Gender is… confusing.
-I feel really nebulous about it, you know?
-Like-- I’ve always gone along with being identified as ‘female’ because-- well-- I’ve never had major dysphoria or anything like that!
-But I’ve done a lot of things that-- I realize now might be pointing me somewhere else.
-When I was a kid, I loved shaving with my dad. I did it all the time.
-Growing up, as a teenager, I started demanding to get my hair cut shorter and shorter. First at my shoulders, then into a longer bob. I also preferred the men’s section of most stores. I bought a suit for a costume-- and found myself really liking it, even wearing it for one of our formal dances.
-For a short period of time, I tried growing my hair out and wearing dresses and make up, but… it felt really difficult to do. I couldn’t keep up with it.
-So here I am now, I guess. Still always anxiously wanting to step into the men’s section, and thinking I’d like to have a flat chest and long legs and a bit of facial hair, but it doesn’t keep me up at night.
-But I don’t really know if that’s why I’m not explicitly happy either, you know?
-I’ve identified as nonbinary to a handful of friends for a couple of years now, since I’m not sure enough yet to come out openly.
-Am I a man? A woman?
-It’s a journey of discovery, I guess.
-Everyone experiences gender differently, though.
-I definitely think it’s worth asking people about their experiences-- but only if they want to talk about it.
-After all, they don’t have to educate you.
-There are lots of online resources to learn about gender stuff too.
-Yay for the internet?
+##b)
+    e "Gender is… confusing."
+    e "I feel really nebulous about it, you know?"
+    e "Like-- I’ve always gone along with being identified as ‘female’ because-- well--"
+    e "I’ve never had major dysphoria or anything like that!"
+    e "But I’ve done a lot of things that-- I realize now might be pointing me somewhere else."
+    e "When I was a kid, I loved shaving with my dad. I did it all the time."
+    e "Growing up, as a teenager, I started demanding to get my hair cut shorter and shorter."
+    e "First at my shoulders, then into a longer bob. I also preferred the men’s section of most stores."
+    e "I bought a suit for a costume-- and found myself really liking it, even wearing it for one of our formal dances."
+    e "For a short period of time, I tried growing my hair out and wearing dresses and make up, but…"
+    e "it felt really difficult to do. I couldn’t keep up with it."
+    e "So here I am now, I guess. Still always anxiously wanting to step into the men’s section..."
+    e "and thinking I’d like to have a flat chest and long legs and a bit of facial hair, but it doesn’t keep me up at night."
+    e "But I don’t really know if that’s why I’m not explicitly happy either, you know?"
+    e "I’ve identified as nonbinary to a handful of friends for a couple of years now, since I’m not sure enough yet to come out openly."
+    e "Am I a man? A woman? None of the above?"
+    e "It’s a journey of discovery, I guess."
+    e "Everyone experiences gender differently, though."
+    e "I definitely think it’s worth asking people about their experiences-- but only if they want to talk about it."
+    e "After all, they don’t have to educate you."
+    e "There are lots of online resources to learn about gender stuff too."
+    e "Yay for the internet?"
 
-c) Realizing I was bisexual was a bit of a confusing process.
-I initially thought I was a lesbian. I came out to one of my parents, and they told me that was impossible. I knew I definitely had romantic feelings towards women, though.
-I never broached it again publicly until much more recently. I had relationships with guys, so I knew I wasn’t particularly against that either.
-But I knew I also liked girls.
-I identified as pansexual for a bit, which is technically how I think I identify? Although bisexual was a much more accessible term, so I stuck to that. I also don’t think bisexuality is limited to just two.
-There’s a lot of awful stereotypes against all kinds of LGBT people, though.
-Bi is often seen as either greedy or indecisive.
-I actually am pretty indecisive.
-But I know it’s related much more to my anxiety than my sexuality, haha.
+## c)
+    e "Realizing I was bisexual was a bit of a confusing process."
+    e "I initially thought I was a lesbian. I came out to one of my parents, and they told me that was impossible."
+    e "I knew I definitely had romantic feelings towards women, though."
+    e "I never broached it again publicly until much more recently. I had relationships with guys, so I knew I wasn’t particularly against that either."
+    e "But I knew I also liked girls."
+    e "I identified as pansexual for a bit, which is technically how I think I identify?"
+    e "Although bisexual was a much more accessible term, so I stuck to that. I also don’t think bisexuality is limited to just two."
+    e "There’s a lot of awful stereotypes against all kinds of LGBT people, though."
+    e "Bi is often seen as either greedy or indecisive."
+    e "I actually am pretty indecisive."
+    e "But I know it’s related much more to my anxiety than my sexuality, haha."
 
-d)
+## d)
 
-That’s alright.
-… Sorry if I was kind of wary.
-It’s weird, you know?
-Being followed like that.
-But I’m glad I noticed you before you just left.
-It’s okay that you might not relate or be like me.
-…
-In the end, we’re just fellow people trying to get by.
-Maybe you don’t have mental illnesses, or you’re straight, or cisgendered.
-That’s okay.
-But… I hope you don’t think this is like, your act of kindness for the day, or anything.
-It’s always good to keep learning. You don’t have to stop here.
-If enough people actually tried to be informed and care, we could make a real change, you know?
+    e "That’s alright."
+    e "… Sorry if I was kind of wary."
+    e "It’s weird, you know?"
+    e "Being followed like that."
+    e "But I’m glad I noticed you before you just left."
+    e "It’s okay that you might not relate or be like me."
+    e "…"
+    e "In the end, we’re just fellow people trying to get by."
+    e "Maybe you don’t have mental illnesses, or you’re straight, or cisgendered."
+    e "That’s okay."
+    e "But… I hope you don’t think this is like, your act of kindness for the day, or anything."
+    e "It’s always good to keep learning. You don’t have to stop here."
+    e "If enough people actually tried to be informed and care, we could make a real change, you know?"
 
 
     # This ends the game.
