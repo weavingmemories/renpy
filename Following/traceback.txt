@@ -1,0 +1,42 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+After initialization, but before game start.
+  File "renpy/common/00start.rpy", line 79, in _init_language
+    renpy.change_language(language)
+  File "game/gui.rpy", line 58, in <module>
+    font FontGroup().add("Maceyhand-Regular.ttf", "1", "26").add("Arial.ttf", 0x0000, 0xffff)
+TypeError: ord() expected a character, but string of length 2 found
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "C:\Users\Macey\Downloads\renpy-7.2.2-sdk\renpy\bootstrap.py", line 313, in bootstrap
+    renpy.main.main()
+  File "C:\Users\Macey\Downloads\renpy-7.2.2-sdk\renpy\main.py", line 525, in main
+    run(restart)
+  File "C:\Users\Macey\Downloads\renpy-7.2.2-sdk\renpy\main.py", line 71, in run
+    renpy.translation.init_translation()
+  File "C:\Users\Macey\Downloads\renpy-7.2.2-sdk\renpy\translation\__init__.py", line 558, in init_translation
+    renpy.store._init_language()  # @UndefinedVariable
+  File "renpy/common/00start.rpy", line 79, in _init_language
+    renpy.change_language(language)
+  File "C:\Users\Macey\Downloads\renpy-7.2.2-sdk\renpy\translation\__init__.py", line 636, in change_language
+    new_change_language(tl, language)
+  File "C:\Users\Macey\Downloads\renpy-7.2.2-sdk\renpy\translation\__init__.py", line 604, in new_change_language
+    i.apply()
+  File "C:\Users\Macey\Downloads\renpy-7.2.2-sdk\renpy\ast.py", line 2474, in apply
+    value = renpy.python.py_eval(expr)
+  File "C:\Users\Macey\Downloads\renpy-7.2.2-sdk\renpy\python.py", line 1961, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\Macey\Downloads\renpy-7.2.2-sdk\renpy\python.py", line 1954, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/gui.rpy", line 58, in <module>
+    font FontGroup().add("Maceyhand-Regular.ttf", "1", "26").add("Arial.ttf", 0x0000, 0xffff)
+  File "C:\Users\Macey\Downloads\renpy-7.2.2-sdk\renpy\text\font.py", line 772, in add
+    end = ord(end)
+TypeError: ord() expected a character, but string of length 2 found
+
+Windows-8-6.2.9200
+Ren'Py 7.2.2.491
+Following 1.0
+Sat Apr 06 20:21:35 2019

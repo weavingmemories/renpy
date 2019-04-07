@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/gui.rpy", line 58: invalid syntax
+    font FontGroup().add("Maceyhand-Regular.ttf", 0x0020, 0x007f).add("Arial.ttf", 0x0000, 0xffff)
+                  ^
+
+Ren'Py Version: Ren'Py 7.2.2.491
+Sat Apr 06 20:15:58 2019
