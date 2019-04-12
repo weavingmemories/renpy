@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 190: end of line expected.
-    e "I always double guess myself every time I have a social interaction and I ""let myself go""."
-                                                                                  ^
+File "game/script.rpy", line 64: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation.
+    show em neutral with dissolve
+    ^
 
 Ren'Py Version: Ren'Py 7.2.2.491
-Thu Apr 11 17:24:46 2019
+Fri Apr 12 06:43:03 2019
