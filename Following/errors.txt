@@ -2,9 +2,7 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 64: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation.
-    show em neutral with dissolve
-    ^
+File "game/options.rpy", line 213: indentation mismatch.
 
 Ren'Py Version: Ren'Py 7.2.2.491
-Fri Apr 12 06:43:03 2019
+Fri Apr 12 08:43:09 2019
